@@ -2,7 +2,16 @@
 
 
 ## AnimatedContainer
-通过`setState`改变属性值实现动画，`transform`属性可影响其子组件
+通过`setState`改变属性值实现动画，`transform`属性可影响其子组件。    
+
+
+系统提供了一系列的动画组件：    
+`AnimatedPadding`    
+`AnimatedAlign`    
+`AnimatedPositioned`    
+`AnimatedOpacity`    
+`AnimatedDefaultTextStyle`    
+...
 
 ```
   double _size = 200;

@@ -35,8 +35,8 @@
 ## AnimationController + Animation
 
 动画状态：   
-  *`forward` 执行结束状态为 `Completed`*    
-  *`reverse` 执行结束状态为 `Dismissed`*    
+  **`forward` 执行结束状态为 `Completed`**    
+  **`reverse` 执行结束状态为 `Dismissed`**    
       
 如果同时有多个AnimationController，且其时长不同，则使用`TickerProviderStateMixin`，单个动画控制器使用`SingleTickerProviderStateMixin`。    
 

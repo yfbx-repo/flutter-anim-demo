@@ -133,6 +133,15 @@ class DemoState extends State<Demo> with SingleTickerProviderStateMixin {
 
  若系统提供的Transition无法满足需求，可以使用`AnimatedBuilder`
 
+ 系统还有个`Transform`类，可以实现旋转平移缩放等操作，但只是变换，没有动画效果。  
+ `Transform.rotate()`     
+ `Transform.translate()`     
+ `Transform.scale()`     
+ `RotatedBox()`     
+ `FittedBox()`     
+  ...
+  这些组件都只有变换效果，没有动画。    
+
  ## AnimatedBuilder + AnimationController
  推荐这种用法
 
